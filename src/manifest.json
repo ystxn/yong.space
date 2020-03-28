@@ -1,0 +1,16 @@
+{
+  "name": "yong.space",
+  "short_name": "yong.space",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#bbb",
+  "theme_color": "#28415B",
+  "icons": [
+    {
+      "src": "/assets/pineapple.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
