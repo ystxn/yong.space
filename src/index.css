@@ -59,13 +59,9 @@ a {
   padding: 0.5rem 1.2rem;
   width: fit-content;
   height: 1.8rem;
-  &:hover {
-      background: darkolivegreen;
-  }
-  &:active {
-      background: olive;
-  }
 }
+a:hover { background: darkolivegreen }
+a:active { background: olive }
 a > svg {
   width: 1.125em; height: 1em; vertical-align: -0.125em
 }

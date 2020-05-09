@@ -2,26 +2,18 @@
   "name": "yong.space",
   "version": "1.0.0",
   "license": "MIT",
+  "repository": "https://github.com/ystan-/yong.space",
   "scripts": {
-    "start": "per-env",
-    "start:production": "npm run -s serve",
-    "start:development": "npm run -s dev",
-    "build": "preact build --template src/template.html",
-    "dev": "preact watch --template src/template.html"
+    "start": "preact watch --template src/template.html",
+    "build": "preact build --template src/template.html && zip -r build.zip build && rm -rf build"
   },
   "devDependencies": {
-    "identity-obj-proxy": "^3.0.0",
-    "node-sass": "^4.13.1",
-    "per-env": "^1.0.2",
     "preact-cli": "^3.0.0-rc.6",
-    "preact-render-spy": "^1.2.1",
-    "sass-loader": "^8.0.2"
+    "preact-render-to-string": "^5.1.8"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.28",
-    "@fortawesome/free-brands-svg-icons": "^5.13.0",
-    "@fortawesome/free-solid-svg-icons": "^5.13.0",
-    "preact": "^10.3.2",
-    "preact-render-to-string": "^5.1.4"
+    "preact": "^10.4.1",
+    "react-icons": "^3.10.0",
+    "typeface-jetbrains-mono": "^1.0.5"
   }
 }
