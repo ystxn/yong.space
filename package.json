@@ -8,6 +8,8 @@
     "build": "preact build --template src/template.html && zip -r build.zip build && rm -rf build"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-react-jsx": "^7.10.1",
     "preact-cli": "^3.0.0-rc.6",
     "preact-render-to-string": "^5.1.8"
   },
