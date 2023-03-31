@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>yong.space</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="yong.space" />
+    <script src="https://kit.fontawesome.com/cb439e77be.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jetbrains-mono/css/jetbrains-mono.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="console">
+        <div class="title-bar">
+            <div class="circles">
+                <script>
+                    [ 'red', 'yellow', 'green' ].forEach((c) =>
+                        document.write(`<div class="circle ${c}"></div>`));
+                </script>
+            </div>
+            <div class="title-bar-text">yong.space</div>
+        </div>
+        <div class="content">
+            $ ls -l
+            <script>
+                [
+                    { label: 'blog', href: 'blog.yong.space', icon: 'fa-solid fa-newspaper' },
+                    { label: 'gallery', href: 'gallery.yong.space', icon: 'fa-solid fa-image' },
+                    { label: 'github', href: 'github.com/ystxn', icon: 'fa-brands fa-github' },
+                    { label: 'twitter', href: 'twitter.com/ystan_', icon: 'fa-brands fa-twitter' },
+                    { label: 'linkedin', href: 'linkedin.com/in/tanys', icon: 'fa-brands fa-linkedin' }
+                ].forEach(({ label, href, icon }) => document.write(`
+                    <a rel="noopener noreferrer" target="_blank" href="//${href}">
+                        <i class="${icon}"></i>
+                        ./${label}
+                    </a>
+                `));
+            </script>
+        </div>
+    </div>
+</body>
+</html>

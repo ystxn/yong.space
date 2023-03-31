@@ -1,0 +1,72 @@
+* {
+    color: #eee;
+    font-family: JetBrains Mono;
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+html, body {
+    background: #bbb;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1 1 1px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.console {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 70vh;
+    border: 1px solid hsla(0, 0%, 62.7%, 0.3);
+    border-radius: 0.6em;
+    background: #28415b;
+    box-shadow: 0.6rem 0.6rem 2rem rgba(20, 20, 20, 0.8);
+}
+.title-bar {
+    display: flex;
+    background: #333;
+    border-radius: 0.6em 0.6em 0 0;
+}
+.title-bar-text {
+    display: flex;
+    flex: 1 1 1px;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+.circles {
+    position: fixed;
+    display: flex;
+    gap: .5rem;
+    margin: .5rem;
+}
+.circle {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+}
+.red    { background: #ff4500 }
+.yellow { background: #daa520 }
+.green  { background: #228b22 }
+.content {
+    margin: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+a {
+    text-decoration: none;
+    background: #3d68a9;
+    border-color: #3089c5;
+    border-radius: 0.5rem;
+    margin: 0.7rem;
+    padding: 0.5rem 1.2rem;
+    width: fit-content;
+    height: 1.8rem;
+    white-space: nowrap;
+}
+a:hover  { background: #556b2f }
+a:active { background: olive }
+
