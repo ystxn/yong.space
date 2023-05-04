@@ -54,9 +54,11 @@ html, body {
     margin: 1rem 1.5rem;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 a {
+    color: #eee;
     text-decoration: none;
     background: #3d68a9;
     border-color: #3089c5;
@@ -69,4 +71,3 @@ a {
 }
 a:hover  { background: #556b2f }
 a:active { background: olive }
-
