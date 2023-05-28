@@ -2,7 +2,7 @@
     color: #eee;
     font-family: JetBrains Mono;
     margin: 0;
-    font-size: 1.2rem;
+    font-size: calc(min(4.6vw,1.2rem));
     line-height: 1.8rem;
 }
 html, body {
@@ -19,7 +19,7 @@ html, body {
     display: flex;
     flex-direction: column;
     width: 80vw;
-    height: 70vh;
+    height: 80vh;
     border: 1px solid hsla(0, 0%, 62.7%, 0.3);
     border-radius: 0.6em;
     background: #28415b;
